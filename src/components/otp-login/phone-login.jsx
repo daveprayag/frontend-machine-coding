@@ -36,7 +36,7 @@ function PhoneOtpForm() {
       {!showOtpInput ? (
         <form onSubmit={handlePhoneSubmit} className="flex flex-col">
           <input
-            type="text"
+            type="number"
             value={phoneNumber}
             onChange={handlePhoneNumber}
             placeholder="Enter your phone number"

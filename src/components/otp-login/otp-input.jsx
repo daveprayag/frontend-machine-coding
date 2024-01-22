@@ -57,7 +57,7 @@ function OtpInput({ length = 6, onOtpSubmit = () => {} }) {
           return (
             <input
               key={index}
-              type="text"
+              type="number"
               value={value}
               ref={(input) => (inputRef.current[index] = input)}
               onChange={(e) => {
