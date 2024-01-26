@@ -14,19 +14,13 @@ export default function Home() {
         >
           OTP Login
         </Link>
+        <Link
+          href="/background-change"
+          className="bg-slate-800 text-white p-3 rounded-lg hover:bg-slate-700 text-center mb-2 mr-2"
+        >
+          Change background
+        </Link>
       </main>
-
-      {/* <footer class="bg-zinc-200 p-4 flex justify-center items-center mt-auto">
-          <span className="items-center">
-            Made with ❤️ by{" "}
-            <a
-              href="https://twitter.com/prayagdavephoto"
-              className="items-center text-gray-900 underline"
-            >
-              Prayag Dave
-            </a>
-          </span>
-        </footer> */}
     </>
   );
 }
